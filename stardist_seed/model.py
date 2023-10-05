@@ -1,6 +1,5 @@
 from stardist.models import StarDist2D, StarDist3D
 from csbdeep.utils import Path, normalize
-
 import pooch
 
 class stardist_seed:
@@ -35,5 +34,6 @@ class stardist_seed:
         preds = model.predict_instances(image, show_tile_progress=False)
     else:
         preds = model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)[0]
+
 
     return preds
