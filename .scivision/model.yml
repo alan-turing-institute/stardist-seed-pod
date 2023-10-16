@@ -1,12 +1,8 @@
-name: resnet50_cefas_model
-url: https://github.com/alan-turing-institute/plankton-cefas-scivision
-import: resnet50_cefas
-model: resnet50
+name: stardist_seed_pod_2D
+url: https://github.com/alan-turing-institute/stardist-seed-pod
+import: stardist-seed-pod
+model: stardist_seed
 args:
-    label_level: label3_detritus
+    model_type: 2d
 prediction_fn:
-    call: predict_batch
-    args:
-        X: image
-    kwargs:
-        batch_size: 3
+    call: predict
