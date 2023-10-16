@@ -3,9 +3,9 @@ url: https://github.com/alan-turing-institute/stardist-seed-pod
 import: stardist-seed-pod
 model: stardist_seed
 args:
-    model_type: 2d
+    model_weights: dict(url="doi:10.5281/zenodo.8410703/models.zip",
+                        known_hash="md5:55840f1954ace35161413cea6e53e68c")
 prediction_fn:
     call: predict
     args:
         X: image
-    kwargs:
