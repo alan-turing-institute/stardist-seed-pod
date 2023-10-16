@@ -6,3 +6,6 @@ args:
     model_type: 2d
 prediction_fn:
     call: predict
+    args:
+        X: image
+    kwargs:
