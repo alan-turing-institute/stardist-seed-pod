@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stardist-seed-pod/__init__.py
+stardist-seed-pod/model.py
+stardist_seed_pod.egg-info/PKG-INFO
+stardist_seed_pod.egg-info/SOURCES.txt
+stardist_seed_pod.egg-info/dependency_links.txt
+stardist_seed_pod.egg-info/requires.txt
+stardist_seed_pod.egg-info/top_level.txt

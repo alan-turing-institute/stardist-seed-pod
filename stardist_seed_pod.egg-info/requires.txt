@@ -1,0 +1,4 @@
+stardist
+pooch
+csbdeep
+tensorflow==2.14.0

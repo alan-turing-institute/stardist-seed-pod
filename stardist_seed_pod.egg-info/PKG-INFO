@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stardist-seed-pod
+Version: 0.0.1
+Summary: stardist_seedpod_scivision
+Home-page: https://github.com/alan-turing-institute/stardist-seed-pod
+Author: Evangeline Corcoran
+Author-email: ecorcoran@turing.ac.uk
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: stardist
+Requires-Dist: pooch
+Requires-Dist: csbdeep
+Requires-Dist: tensorflow==2.14.0
