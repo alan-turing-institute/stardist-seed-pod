@@ -1,6 +1,6 @@
 name: stardist_seed_pod_2D
 url: https://github.com/alan-turing-institute/stardist-seed-pod
-import: stardist-seed-pod
+import: stardist_seed_pod
 model: stardist_seed
 args:
     model_type: 2d
