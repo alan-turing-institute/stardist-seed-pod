@@ -1,1 +1,1 @@
-from .model import stardist-seed-pod
+from .model import stardist_seed
