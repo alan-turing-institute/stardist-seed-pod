@@ -9,7 +9,7 @@ with open("requirements.txt") as f:
             requirements.append(stripped)
 
 setup(
-    name="stardist-seed-pod",
+    name="stardist_seed_pod",
     version="0.0.1",
     description="stardist_seedpod_scivision",
     author="Evangeline Corcoran",
