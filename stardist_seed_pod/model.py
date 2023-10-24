@@ -37,10 +37,10 @@ class stardist_seed:
         if self.model_type == '2d':
             axis_norm = (0, 1)
             image = self.preprocess(image, axis_norm)
-            preds = self.pretrained_model.predict_instances(image, show_tile_progress=False)
+            labels, details = self.pretrained_model.predict_instances(image, show_tile_progress=False)
         else:
             axis_norm = (0, 1, 2)
             image = self.preprocess(image, axis_norm)
-            preds = self.pretrained_model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)[0]
+            labels, details = self.pretrained_model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)[0]
 
-        return preds
+        return labels
