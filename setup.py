@@ -14,7 +14,7 @@ setup(
     description="stardist_seedpod_scivision",
     author="Evangeline Corcoran",
     author_email="ecorcoran@turing.ac.uk",
-    url="https://github.com/alan-turing-institute/stardist-seed-pod",
+    url="https://github.com/IFenton/stardist-seed-pod",
     packages=find_packages(),
     install_requires=requirements,
     python_requires=">=3.9",
