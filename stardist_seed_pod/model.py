@@ -5,7 +5,7 @@ import numpy as np
 
 
 class stardist_seed:
-    def __init__(self, model_weights: dict = None, model_type='2d'):
+    def __init__(self, model_weights: dict = None): #, model_type='2d'):
         if model_weights is None:
             model_weights = dict(url="https://zenodo.org/records/8410703/files/models.zip?download=1",
                                  known_hash="md5:55840f1954ace35161413cea6e53e68c")
