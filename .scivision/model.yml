@@ -3,7 +3,7 @@ url: https://github.com/IFenton/stardist-seed-pod
 import: stardist_seed_pod
 model: stardist_seed
 args:
-    model_type: 2d
+    model_type: 3d
 prediction_fn:
     call: predict
     args:
