@@ -1,5 +1,5 @@
 stardist
 pooch
 csbdeep
-tensorflow==2.10.0
+tensorflow
 numpy
