@@ -46,3 +46,9 @@ class stardist_seed:
             labels, details = self.pretrained_model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)
 
         return labels
+
+class model_2d(stardist_seed):
+    name = '2d'
+
+class model_3d(stardist_seed):
+    name = '3d'
