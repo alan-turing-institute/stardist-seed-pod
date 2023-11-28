@@ -1,5 +1,5 @@
 name: stardist_seed_pod
-url: https://github.com/IFenton/stardist-seed-pod
+url: https://github.com/alan-turing-institute/stardist-seed-pod
 import: stardist_seed_pod
 models: 
   - model: model_2d
