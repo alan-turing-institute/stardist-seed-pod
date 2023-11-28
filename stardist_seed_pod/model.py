@@ -43,6 +43,6 @@ class stardist_seed:
         else:
             axis_norm = (0, 1, 2)
             image = self.preprocess(image, axis_norm)
-            labels, details = self.pretrained_model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)[0]
+            labels, details = self.pretrained_model.predict_instances(image, n_tiles=(10, 5, 5), show_tile_progress=False)
 
         return labels
