@@ -1,10 +1,16 @@
-name: stardist_seed_pod_2D
+name: stardist_seed_pod
 url: https://github.com/IFenton/stardist-seed-pod
 import: stardist_seed_pod
-model: stardist_seed
-args:
-    model_type: 3d
-prediction_fn:
-    call: predict
-    args:
-        X: image
+models: 
+  - model: 2d
+    args: None
+    prediction_fn:
+        call: predict
+        args:
+            X: image
+  - model: 3d
+    args: None
+    prediction_fn:
+        call: predict
+        args:
+            X: image
