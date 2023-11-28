@@ -28,7 +28,7 @@ class stardist_seed:
             model = StarDist3D(None, name='stardist_seedCT_070622', basedir='models')
 
         self.pretrained_model = model
-        self.model_type = model_type
+        self.model_type = self.name
 
     def preprocess(self, image: np.ndarray, axis_norm) -> np.ndarray:
         image = normalize(image, 1, 99.8, axis=axis_norm)
