@@ -1,10 +1,16 @@
-name: stardist_seed_pod_2D
+name: stardist_seed_pod
 url: https://github.com/alan-turing-institute/stardist-seed-pod
 import: stardist_seed_pod
-model: stardist_seed
-args:
-    model_type: 2d
-prediction_fn:
-    call: predict
-    args:
-        X: image
+models: 
+  - model: model_2d
+    args: None
+    prediction_fn:
+        call: predict
+        args:
+            X: image
+  - model: model_3d
+    args: None
+    prediction_fn:
+        call: predict
+        args:
+            X: image
